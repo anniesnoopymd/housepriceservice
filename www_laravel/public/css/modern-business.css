@@ -1,0 +1,154 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover{
+    color: #E84807;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 65%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.headline{
+    display: block;
+    margin: 30px 0 25px 0;
+    border-bottom: 1px dotted #8c8c8c;
+}
+.page-header{
+    border-bottom: 2px solid #E84807;
+    display: inline-block;
+    margin: -2px 0 0 0;
+    color: #585f69;
+}
+.services{
+    margin-top: 30px;
+}
+.service{
+    margin-bottom: 10px;
+    padding: 15px 15px 10px;
+}
+.service:hover{
+    border-radius:2px;
+    box-shadow:0 0 8px #ddd;
+    background:#fcfcfc;
+    -webkit-transition:box-shadow 0.2s ease-in-out;
+    -moz-transition:box-shadow 0.2s ease-in-out;
+    -o-transition:box-shadow 0.2s ease-in-out;
+    transition:box-shadow 0.2s ease-in-out;
+}
+.service:hover span{
+    color: #585F69;
+}
+.service span{
+    float: left;
+    padding: 10px;
+    color: #E84807;
+    font-size: 45px;
+    text-align: center;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.service .desc{
+    float: right;
+    width: 75%;
+}
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+.btn-circle{
+    width: 140px;
+    height: 140px;
+    font-size: 65px;
+    padding: 35px;
+    border-radius: 70px;
+}
+span.editpart{
+    float: right;
+    font-size: 13px;
+}
+span.editpart .edit{
+    padding:0 5px 0 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
